@@ -6,17 +6,17 @@ void methodArray (string [] array)
     for (int i = 0; i < array.Length; i++)
     {
         if (array[i].Length <= 3)
-        newArray[i] = array[i];
-        Console.Write(newArray[i] + " ");
-    }
+            newArray[i] = array[i];
+            Console.Write(newArray[i] + " ");
+    }  
 }
 void ShowArray(string [] array)
 {
     for(int i = 0; i < array.Length; i++)
     Console.Write(array[i] + ",");
 }
-string[] array = { "qwe", "1313", "kjdgksd", "=)", "fieowp", "Denmark"};
+string[] array = { "three", "1313", "Voldemort", "GUF", "=)", "Denmark"};
 ShowArray(array);
-Console.WriteLine();
+Console.Write(" -> ");
 methodArray(array);
 
